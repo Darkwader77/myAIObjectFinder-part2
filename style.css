@@ -1,0 +1,54 @@
+body
+{
+    background: url("AI Object Picture.jpeg") no-repeat center center fixed; /* Replace with your actual background image URL */
+    background-size: cover;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+    
+#objectname{
+        padding: 10px;
+        font-size: 16px;
+        margin: 10px 0;
+        width: 300px;
+        border: 2px solid #ddd;
+        border-radius: 5px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: #0056b3;
+}
+
+#status, #result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#p5Canvas {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
